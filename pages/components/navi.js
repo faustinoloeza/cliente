@@ -28,7 +28,7 @@ const products = [
   ]
 
   export default function Navi() {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
   
     return (
       <nav id="header" className="w-full z-30 top-0 py-1">

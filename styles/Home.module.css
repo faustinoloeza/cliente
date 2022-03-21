@@ -1,7 +1,8 @@
 .container {
-  padding: 0 2rem;
+  @apply box-border my-0 mx-auto py-0 px-5 relative w-full;
+  max-width: 960px;
+  border: 1px solid black;
 }
-
 .main {
   min-height: 100vh;
   padding: 4rem 0;
